@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door {
+    width: 280px;
+    height: 400px;
+    background: #4F77FF;
+    border-radius: 150px 150px 0 0;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.stairs {
+    width: 80%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: #191919;
+}
+
+.stairs:nth-child(1) {
+    width: 20%;
+    background: #191919;
+}
+
+.stairs:nth-child(2) {
+    width: 40%;
+    background: #191919;
+}
+
+.stairs:nth-child(3) {
+    width: 60%;
+    background: #191919;
+}
+
+
+
+.center__card {
+    width: 700px;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6592CF;
+}
+
+.first__card {
+
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #243D83;
+}
+
+.two__card {
+    transform: rotate(-80deg);
+
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    background: #6592CF;
+}
+
+.smell__card {
+    width: 180px;
+    height: 180px;
+    transform: rotate(-80deg);
+    background: #243D83;
+}
+
+
+
+
+.aylana {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #FFF1C1;
+}
+
+.kob {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: -35px;
+    right: 0;
+    transform: rotate(45deg);
+    background: #FE5F55;
+
+}
+
+.kob:nth-child(2) {
+    right: 250px;
+    bottom: -40%;
+}
+
+
+.door2 {
+    width: 280px;
+    height: 400px;
+    background: #F2AD43;
+    border-radius: 150px 150px 0 0;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.yumoloq {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: -50px;
+    right: -32px;
+    background: #824B20;
+    z-index: 2;
+
+
+
+}
+
+.yumoloq:nth-child(1) {
+    position: absolute;
+    bottom: -50px;
+    left: -32px;
+    background: #E08027;
+    z-index: 3;
+}
+
+.yumoloq:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 54%;
+    left: 90px;
+    background: #FFF58F;
+    z-index: 1;
+
+
+}
+
+
+
+
+.tortburchak {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(36, 61, 131);
+
+}
+
+.doyra {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    left: 13%;
+    top: -10%;
+    background: rgb(101, 146, 207);
+
+}
+
+.doyra:nth-child(2) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 32%;
+    top: 18%;
+    background: rgb(36, 61, 131);
+}
+
+.doyra:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 38%;
+    background: rgb(238, 184, 80);
+}
+
+.card__first {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(101, 146, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door3 {
+    width: 350px;
+    height: 350px;
+    background: rgb(254, 95, 85);
+    border-radius: 150px 150px 70px 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.eyes {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF1C1;
+}
+
+.eyes:nth-child(1) {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+
+.eyes:nth-child(2) {
+    position: absolute;
+    top: 35%;
+    left: 12%;
+}
+
+.eyes:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -35%;
+    right: 100%;
+    border: 1px solid red;
+}
+
+.eyes:nth-child(4) {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -35%;
+    left: 40%;
+
+}
+
+.ogiz {
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 15%;
+    left: 36%;
+    background: #FFF1C1;
+}
+
+.card3 {
+    width: 100%;
+    height: 100vh;
+    background: #107640;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stay__center {
+    width: 800px;
+    height: 800px;
+    background: #161D1A;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.finger {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: -20%;
+    left: 25%;
+    background: #107640;
+}
+
+.finger:nth-child(2) {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 21%;
+    left: 43%;
+    background: #107640;
+    border: 20px solid #161D1A;
+    z-index: 3;
+}
+
+.barmoqlar {
+    width: 90px;
+    height: 200px;
+    position: absolute;
+    bottom: 40%;
+    left: 65%;
+    background: #107640;
+}
+
+.barmoqlar2 {
+    width: 90px;
+    height: 250px;
+    position: absolute;
+    bottom: 40%;
+    left: 52%;
+    background: #107640;
+}
+
+.barmoqlar3 {
+    width: 90px;
+    height: 200px;
+    position: absolute;
+    bottom: 40%;
+    left: 38%;
+    background: #107640;
+}
+
+.barmoqlar4 {
+    width: 90px;
+    height: 180px;
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    background: #107640;
+}
+.card5{
+    width: 100%;
+    height: 100vh;
+    background-color: #70CEAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+
+
+.logo {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    outline: 80px solid #0E532F;
+    position: relative;
+}
+
+.logo__body {
+    width: 400px;
+    height: 400px;
+    outline: 50px solid #0E532F;
+    position: absolute;
+    border-radius: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.logo__head {
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    z-index: 3;
+    background: #0E532F;
+}
+
+.logo__footer {
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    top: 78%;
+    left: 25%;
+    z-index: 3;
+    background: #0E532F;
+}
