@@ -148,7 +148,7 @@
     bottom: -50px;
     left: -32px;
     background: #E08027;
-    z-index: 3;
+    z-index: 1;
 }
 
 .yumoloq:nth-child(2) {
@@ -158,7 +158,7 @@
     top: 54%;
     left: 90px;
     background: #FFF58F;
-    z-index: 1;
+    z-index: 3;
 
 
 }
